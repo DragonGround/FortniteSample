@@ -1,3 +1,1 @@
-<iframe src="https://player.vimeo.com/video/713229997?h=2d63618c2c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="OneJS Fortnite UI"></iframe>
-
 This sample code is meant for [OneJS](https://onejs.com) users. It is based on a newer version that's still being prepared for the Asset Store. Request access to the private repo in our Discord if you'd like to try things early. 
