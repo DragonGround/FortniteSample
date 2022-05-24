@@ -1,6 +1,6 @@
 ![Fortnite UI in Unity](/resources/res.jpg?raw=true "Fortnite UI in Unity")
 
-This sample code is meant for [OneJS](https://onejs.com) users. It is based on a newer version that's still being prepared for the Asset Store. Request access to the private repo in our Discord if you'd like to try things early. 
+This sample code is meant for [OneJS](https://onejs.com) users. It is based on a newer version that's still being prepared for the Asset Store. Request access to the private repo in our [Discord](https://discord.gg/Nm5VdgMywa) if you'd like to try things early. 
 
 Video Demo: https://vimeo.com/713229997
 
@@ -24,7 +24,7 @@ requestAnimationFrame(animate)
 ```
 
 * Import the included `CharacterManager.cs` file into Unity and drag the MonoBehaviour onto a scene.
-* Then include `CharacterManager` into the Objects list under ScriptEngine's INTEROP; name the map to `charman`
+* Then include `CharacterManager` into the Objects list under ScriptEngine's INTEROP; name it to `charman`
 * Make sure Live Reload's entry script is set to `index.js`.
 * Hit Play and you should be all set
 
