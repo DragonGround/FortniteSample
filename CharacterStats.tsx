@@ -136,7 +136,7 @@ const CharacterStats = () => {
                 <div style={healthRowStyle}>
                     <div style={iconStyle}>&#xE9F5;</div>
                     <div style={healthBarStyle}>
-                        <div style={{...healthBarMaskStyle, width: `${health}%`, transitionProperty: ["width"], transitionDuration: [0.5], transitionTimingFunction: ["EaseInOut"]}}>
+                        <div style={{ ...healthBarMaskStyle, width: `${health}%`, transitionProperty: ["width"], transitionDuration: [0.5], transitionTimingFunction: ["EaseInOut"] }}>
                             <gradientrect colors={[parseColor("#02BC23"), parseColor("#48E025")]} style={healthBarGradientStyle} />
                         </div>
                     </div>
