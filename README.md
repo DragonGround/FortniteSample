@@ -4,8 +4,8 @@ This sample code is meant for [OneJS](https://onejs.com) users. Video Demo: http
 
 ## Step-by-step Setup
 
-* Extract this repo to /Addons/ForniteSample (under your project's persistenDataPath)
-* Under root (your project's persistenDataPath), make a `index.tsx` file like below:
+* Extract this repo to /Addons/ForniteSample (under your project's persistentDataPath)
+* Under root (your project's persistentDataPath), make a `index.tsx` file like below:
 
 ```ts
 import { render, h } from "preact"
@@ -21,6 +21,8 @@ function animate(time) {
 requestAnimationFrame(animate)
 ```
 
+* Open `persistentDataPath` with VSCode and run the `tsc: watch` task (Ctrl + Shift + B)
+* In Unity, drag a ScriptEngine prefab onto the scene.
 * Import the included `CharacterManager.cs` file into Unity and drag the MonoBehaviour onto a scene.
 * Then include `CharacterManager` into the Objects list under ScriptEngine's INTEROP; name it to `charman`
 * Make sure Live Reload's entry script is set to `index.js`.
