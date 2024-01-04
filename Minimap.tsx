@@ -2,7 +2,7 @@ import { Dom } from "OneJS/Dom"
 import { h } from "preact"
 import { useEffect, useRef } from "preact/hooks"
 import { Style } from "preact/jsx"
-import { Tween, Easing } from "tweenjs/tween"
+import { Easing, Tween } from "tweenjs"
 
 //#region Stylings
 

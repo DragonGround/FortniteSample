@@ -4,28 +4,10 @@ This sample code is meant for [OneJS](https://onejs.com) users. Video Demo: http
 
 ## Step-by-step Setup
 
-* Extract this repo to /Addons/ForniteSample (under your project's persistentDataPath)
-* Under root (your project's persistentDataPath), make a `index.tsx` file like below:
-
-```ts
-import { render, h } from "preact"
-import FortniteSample from "FortniteSample"
-import { update } from "tweenjs/tween"
-
-render(<FortniteSample />, document.body)
-
-function animate(time) {
-    requestAnimationFrame(animate)
-    update(time)
-}
-requestAnimationFrame(animate)
-```
-
-* Open `persistentDataPath` with VSCode and run the `tsc: watch` task (Ctrl + Shift + B)
+* Extract this repo to `{ProjectDir}/OneJS/ForniteSample`
+* Open `{ProjectDir}/OneJS` with VSCode and run the `tsc: watch` task (Ctrl + Shift + B)
 * In Unity, drag a ScriptEngine prefab onto the scene.
-* Import the included `CharacterManager.cs` file into Unity and drag the MonoBehaviour onto a scene.
-* Then include `CharacterManager` into the Objects list under ScriptEngine's INTEROP; name it to `charman`
-* Make sure Live Reload's entry script is set to `index.js`.
+* Create an empty GameObject in scene and name it `charman`. Then, drag the included `CharacterManager.cs` onto it.
+* Add `CharacterManager` to the Objects list under ScriptEngine's INTEROP; name it to `charman`. (Read the info box above the Objects list for tips on how to pick specific Objects)
+* Set Live Reload's entry script to `FortniteSample/index.js`.
 * Hit Play and you should be all set
-
-_Everytime you checkout a new OneJS version (from the private repo or Asset Store), make sure you also update your ScriptLib folder. You can do so by deleting the old one, a new one will be automatically created upon running ScriptEngine. This step will be automated in the future._
