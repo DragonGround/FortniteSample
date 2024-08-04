@@ -19,9 +19,7 @@
         "skipLibCheck": false,
         "forceConsistentCasingInFileNames": true,
         "declaration": true,
-        "types": [
-            "onejs-core",
-        ]
+        "types": [ "onejs-core" ]
     },
     "include": [
         "src/**/*"
