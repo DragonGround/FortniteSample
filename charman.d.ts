@@ -17,3 +17,5 @@ declare namespace FortniteSample {
         remove_OnSlotIndexChanged(handler: (val: number) => void): void
     }
 }
+
+declare const charman: FortniteSample.CharacterManager

@@ -16,6 +16,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 https://fortnite.fandom.com/
 
-## Ingame Screenshot
+## Ingame Screenshots
 
-Taken by myself. I'll license it as Creative Commons Attribution (CC BY) https://creativecommons.org/licenses/by/4.0/
+screenie.jpg: taken by me (@Singtaa)
+screenie2.jpg: wallpaperflare.com
