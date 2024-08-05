@@ -38,7 +38,7 @@ const Minimap = () => {
         <div class="w-[300px] h-[400px] absolute top-2.5 right-2.5 flex flex-col">
             <div class="relative w-[300px] h-[300px] bg-beige overflow-hidden">
                 <div ref={mapRef} class="absolute -top-[850px] -left-[850px] w-[1400px] h-[1400px]" style={{ backgroundImage: mapTex }}></div>
-                <div class="absolute top-[140px] left-[140px] text-beige text-xl rpgawesome">&#xEAC5;</div>
+                <div class="absolute top-[140px] left-[140px] text-white text-xl rpgawesome">&#xEAC5;</div>
             </div>
             <div class="flex flex-row mt-2 items-center justify-center">
                 <div ref={hourGlassRef} class="text-base text-white w-[26px] h-[26px] bg-black/30 rounded-full flex items-center justify-center duration-1000 transition-colors ease-in-out rpgawesome">&#xEA09;</div>
