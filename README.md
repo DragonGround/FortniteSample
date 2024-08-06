@@ -1,3 +1,5 @@
+Branch `onejs-v2` contains the latest version, updated for OneJS V2.
+
 ![Fortnite UI in Unity](/resources/res.jpg?raw=true "Fortnite UI in Unity")
 
 This sample code is meant for [OneJS](https://onejs.com) users. Video Demo: https://vimeo.com/713229997
