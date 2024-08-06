@@ -1,7 +1,8 @@
 {
     "name": "fortnite-sample",
     "description": "Fortnite UI Sample for OneJS",
-    "version": "0.3.13",
+    "version": "0.3.17",
+    "repository": "github:DragonGround/FortniteSample#onejs-v2",
     "main": "dist/index.js",
     "dependencies": {
         "@tweenjs/tween.js": "^25.0.0",

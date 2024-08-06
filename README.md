@@ -1,13 +1,22 @@
-![Fortnite UI in Unity](/resources/res.jpg?raw=true "Fortnite UI in Unity")
+[![Fortnite UI in Unity](https://i.vimeocdn.com/video/1911437473-ef054093a6a9c072ec52beffa9223b73173dc6f951383b8aa2ad637d71f4e9da-d "Fortnite UI in Unity")](https://vimeo.com/995357601)
 
-This sample code is meant for [OneJS](https://onejs.com) users. Video Demo: https://vimeo.com/713229997
+Video Guide: https://vimeo.com/995357601
 
-## Step-by-step Setup
+This sample code is meant for [OneJS](https://onejs.com) users. 
 
-* Extract this repo to `{ProjectDir}/OneJS/ForniteSample`
-* Open `{ProjectDir}/OneJS` with VSCode and run the `tsc: watch` task (Ctrl + Shift + B)
-* In Unity, drag a ScriptEngine prefab onto the scene.
-* Create an empty GameObject in scene and name it `charman`. Then, drag the included `CharacterManager.cs` onto it.
-* Add `CharacterManager` to the Objects list under ScriptEngine's INTEROP; name it to `charman`. (Read the info box above the Objects list for tips on how to pick specific Objects)
-* Set Live Reload's entry script to `FortniteSample/index.js`.
-* Hit Play and you should be all set
+### Quick Start
+
+* `npm install fortnite-sample`
+* Setup `SampleCharacter` in scene
+* Test the `<FortniteSample />` preact comp like below:
+
+```tsx
+import { h, render } from "preact"
+import { FortniteSample } from "fortnite-sample"
+
+const App = () => {
+    return <FortniteSample />
+}
+
+render(<App />, document.body)
+```
